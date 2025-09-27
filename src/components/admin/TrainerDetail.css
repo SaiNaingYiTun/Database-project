@@ -1,0 +1,128 @@
+.trainer-detail-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    max-width: 800px;
+    margin: 40px auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.trainer-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 700px;
+    gap: 20px;
+}
+
+.trainer-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: #ddd;
+    flex-shrink: 0;
+}
+
+.trainer-info {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: 150px auto;
+    row-gap: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.trainer-info strong {
+    color: #141010;
+}
+
+.bio-section {
+    width: 100%;
+    max-width: 700px;
+    margin-top: 70px;
+}
+
+.bio-section label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.bio-section textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+}
+
+.button-group {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.button-group button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    color: white;
+    transition: 0.2s ease-in-out;
+}
+
+.approve-button {
+    background-color: #28a745;
+}
+
+.reject-button {
+    background-color: #dc3545;
+}
+
+.button-group button:hover {
+    opacity: 0.8;
+}
+
+.back-button {
+    align-self: flex-start;
+    margin-bottom: 15px;
+    padding: 8px 14px;
+    background-color: #ddd;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .trainer-header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .trainer-info {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .button-group {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .trainer-image {
+        margin-bottom: 15px;
+    }
+}

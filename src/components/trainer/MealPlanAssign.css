@@ -1,0 +1,108 @@
+.meal-assign-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .trainee-info {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .trainee-info h3 {
+    font-size: 1.5rem;
+    margin: 5px 0;
+  }
+  
+  .trainee-info p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .content-section {
+    display: flex;
+    gap: 40px;
+  }
+  
+  .calendar-section {
+    flex: 1;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .calendar-section h4 {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+  }
+  
+  .meal-plans-section {
+    flex: 2;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .meal-plans-section h4 {
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+  }
+  
+  .meal-plan-options {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .meal-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f9f9f9;
+    padding: 12px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .meal-item label {
+    font-weight: bold;
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .meal-item div {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .meal-item button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 0.9rem;
+  }
+  
+  .meal-item button:hover {
+    background-color: #0056b3;
+  }
+  
+  .done-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 30px;
+    font-size: 1rem;
+  }
+  
+  .done-button:hover {
+    background-color: #218838;
+  }
+  
+  

@@ -1,0 +1,84 @@
+{
+    "workoutPlans": [
+      {
+        "id": 1,
+        "name": "Chest (Beginner)",
+        "exercises": [
+          {
+            "exerciseId": 1,
+            "exerciseName": "Push Up",
+            "setRep": "3 sets of 15 reps",
+            "restTime": "60 sec",
+            "videoUrl": "https://www.youtube.com/watch?v=XXXXXXXXX"
+          },
+          {
+            "exerciseId": 2,
+            "exerciseName": "Chest Press",
+            "setRep": "3 sets of 12 reps",
+            "restTime": "60 sec",
+            "videoUrl": "https://www.youtube.com/watch?v=XXXXXXXXX"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Back (Beginner)",
+        "exercises": [
+          {
+            "exerciseId": 3,
+            "exerciseName": "Pull Up",
+            "setRep": "3 sets of 10 reps",
+            "restTime": "90 sec",
+            "videoUrl": "https://www.youtube.com/watch?v=XXXXXXXXX"
+          },
+          {
+            "exerciseId": 4,
+            "exerciseName": "Lat Pulldown",
+            "setRep": "4 sets of 12 reps",
+            "restTime": "90 sec",
+            "videoUrl": "https://www.youtube.com/watch?v=XXXXXXXXX"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Leg (Beginner)",
+        "exercises": [
+          {
+            "exerciseId": 5,
+            "exerciseName": "Squats",
+            "setRep": "4 sets of 12 reps",
+            "restTime": "90 sec",
+            "videoUrl": "https://www.youtube.com/watch?v=XXXXXXXXX"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Arm (Beginner)",
+        "exercises": [
+          {
+            "exerciseId": 6,
+            "exerciseName": "Bicep Curl",
+            "setRep": "3 sets of 12 reps",
+            "restTime": "60 sec",
+            "videoUrl": "https://www.youtube.com/watch?v=XXXXXXXXX"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Shoulder (Beginner)",
+        "exercises": [
+          {
+            "exerciseId": 7,
+            "exerciseName": "Shoulder Press",
+            "setRep": "3 sets of 12 reps",
+            "restTime": "60 sec",
+            "videoUrl": "https://www.youtube.com/watch?v=XXXXXXXXX"
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,69 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .workout-assign-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  .trainee-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+  }
+  
+  .trainee-info h3 {
+    font-size: 1.5rem;
+  }
+  
+  .trainee-info p {
+    font-size: 1rem;
+    color: #777;
+  }
+  
+  .content-section {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .calendar-section {
+    width: 45%;
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  .calendar-box {
+    width: 100%;
+    height: auto;
+    background-color: #eee;
+    padding: 10px;
+  }
+  
+  .exercises-section {
+    width: 45%;
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .upload-video-btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .upload-video-btn:hover {
+    background-color: #0056b3;
+  }
+  

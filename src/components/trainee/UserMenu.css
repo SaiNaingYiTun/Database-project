@@ -1,0 +1,47 @@
+.user-menu {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-family: Arial, sans-serif;
+    z-index: 1000; /* Ensure it stays on top */
+}
+
+.user-icon {
+    cursor: pointer;
+    background: #eee;
+    padding: 8px 12px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.user-icon:hover {
+    background: #ddd;
+}
+
+/* ✅ Fix dropdown positioning */
+.dropdown {
+    position: fixed;  /* Ensures it stays outside */
+    top: 50px;  /* Adjust this based on your layout */
+    right: 20px;
+    background: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    width: 150px;
+    border-radius: 5px;
+    z-index: 9999;  /* Ensure it stays above all elements */    
+}
+
+.dropdown p {
+    margin: 5px 0;
+    cursor: pointer;
+    padding: 5px;
+    transition: background 0.2s ease;
+}
+
+.dropdown p:hover {
+    background: #f5c32c;
+}
